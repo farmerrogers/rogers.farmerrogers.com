@@ -1,4 +1,8 @@
 RogersFarmerrogersCom::Application.routes.draw do
+  get "portfolio/index"
+
+  get "connect/index"
+
   get "home/connect"
 
   get "home/portfolio"
