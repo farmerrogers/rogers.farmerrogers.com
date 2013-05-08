@@ -1,3 +1,64 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+	font-family: 'AshburyLig';
+	src: url('AshburyLig-webfont.eot');
+	src: url('AshburyLig-webfont.eot?#iefix') format('embedded-opentype'),
+		url('AshburyLig-webfont.woff') format('woff'),
+		url('AshburyLig-webfont.ttf') format('truetype'),
+		url('AshburyLig-webfont.svg#AshburyLig') format('svg');
+	font-weight: normal;
+	font-style: nromal;
+}
+
+@font-face {
+	font-family: 'SofiaProLigCond';
+	src: url('assets/fonts/SofiaProLigCond-webfont.eot');
+	src: url('assets/fonts/SofiaProLigCond-webfont.eot?#iefix') format('embedded-opentype'),
+		url('assets/fonts/SofiaProLigCond.woff') format('woff'),
+		url('assets/fonts/SofiaProLigCond.ttf') format('truetype'),
+		url('assets/fonts/SofiaProLigCond.svg') format('svg');
+	font-weight: normal;
+	font-style: nromal;
+}
+
+#line {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	margin-left: 10px;
+	border-left: 5px solid #26eaea;
+}
+
+#name_div {
+	width: 100%;
+}
+
+#name {
+	color: #f88379;
+	margin: 10px 0;
+	padding: 8px 10px 8px 10px;
+	width: absolute;
+	background: #666;
+}
+
+#name a {
+	color: #f88397;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#specs {
+	z-index: -2;
+}
+
+h1 {
+	font-family: "AshburyLig", Times, serif;
+}
