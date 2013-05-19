@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 @font-face {
 	font-family: 'AshburyLig';
 	src: asset-url('AshburyLig-webfont.eot', font);
@@ -9,8 +10,8 @@
 		asset-url('AshburyLig-webfont.woff', font) format('woff'),
 		asset-url('AshburyLig-webfont.ttf', font) format('truetype'),
 		asset-url('AshburyLig-webfont.svg#AshburyLig', font) format('svg');
-	font-weight: normal;
-	font-style: nromal;
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
@@ -20,8 +21,19 @@
 		asset-url('SofiaProLigCond-webfont.woff', font) format('woff'),
 		asset-url('SofiaProLigCond-webfont.ttf', font) format('truetype'),
 		asset-url('SofiaProLigCond-webfont.svg', font) format('svg');
-	font-weight: 300;
-	font-style: nromal;
+	font-weight: 400;
+	font-style: normal;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.all, body, p, table, div {
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
 }
 
 #line {
@@ -59,9 +71,11 @@ li {
 	font-family: "SofiaProLigCond";
 }
 
+
 #specs {
 	z-index: -2;
-	width: 100%;
+	width: auto;
+	height: auto;
 }
 
 h1 {
