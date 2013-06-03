@@ -10,19 +10,15 @@
 		asset-url('AshburyLig-webfont.woff', font) format('woff'),
 		asset-url('AshburyLig-webfont.ttf', font) format('truetype'),
 		asset-url('AshburyLig-webfont.svg#AshburyLig', font) format('svg');
-	font-weight: 400;
-	font-style: normal;
 }
 
 @font-face {
-	font-family: 'SofiaProLigCond';
-	src: asset-url('SofiaProLigCond-webfont.eot', font);
-	src: asset-url('SofiaProLigCond-webfont.eot?#iefix', font) format('embedded-opentype'),
-		asset-url('SofiaProLigCond-webfont.woff', font) format('woff'),
-		asset-url('SofiaProLigCond-webfont.ttf', font) format('truetype'),
-		asset-url('SofiaProLigCond-webfont.svg', font) format('svg');
-	font-weight: 400;
-	font-style: normal;
+	font-family: 'SofiaProLiCond';
+	src: asset-url('SofiaProLiCond-webfont.eot', font);
+	src: asset-url('SofiaProLiCond-webfont.eot?#iefix', font) format('embedded-opentype'),
+		asset-url('SofiaProLiCond-webfont.woff', font) format('woff'),
+		asset-url('SofiaProLiCond-webfont.ttf', font) format('truetype'),
+		asset-url('SofiaProLiCond-webfont.svg', font) format('svg');
 }
 
 img {
@@ -31,18 +27,17 @@ img {
 }
 
 .all, body, p, table, div {
-	font-size: 10pt;
+	font-size: 12pt;
 	font-weight: normal;
 	font-style: normal;
 }
 
 #line {
-	content: "";
 	position: absolute;
 	z-index: -1;
 	top: 0;
 	bottom: 0;
-	margin-left: 10px;
+	margin-left: 1.25%;
 	border-left: 5px solid #26eaea;
 }
 
@@ -52,8 +47,8 @@ img {
 
 #name {
 	color: #f88379;
-	margin: 10px 0;
-	padding: 8px 10px 8px 10px;
+	margin: 1% 0;
+	padding: 0.75% 1%;
 	width: absolute;
 	background: #666;
 }
@@ -68,17 +63,24 @@ ul {
 }
 
 li {
-	font-family: "SofiaProLigCond";
+	font-family: "SofiaProLiCond";
+	font-size: 120%;
+	padding: 1.25% 0 1.25% 0;
 }
 
+#avatar {
+	z-index: -2;
+}
 
 #specs {
-	z-index: -2;
+	z-index: -3;
 	width: auto;
 	height: auto;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 200%;
 	font-family: "AshburyLig";
+	font-weight: 200;
 }
+
