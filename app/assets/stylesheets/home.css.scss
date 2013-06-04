@@ -21,6 +21,9 @@
 		asset-url('SofiaProLiCond-webfont.svg', font) format('svg');
 }
 
+
+/* GLOBAL STYLES */
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -84,3 +87,38 @@ h1 {
 	font-weight: 200;
 }
 
+
+        /* PRINT VERSION */
+@media print {
+           
+}
+ 
+        /* PHONE PORTRAIT VERSION */
+@media only screen and (min-width: 320px) and (orientation : portrait) {
+	#avatar,
+	#specs {
+		visibility: hidden;
+	}
+}
+
+        /* PHONE LANDSCAPE VERSION */
+@media only screen and (min-width: 320px) and (orientation : landscape) {
+	#specs {
+		visibility: hidden;
+	}
+}
+
+        /* TABLET PORTRAIT VERSION */
+@media only screen and (min-width: 768px) and (orientation : portrait) {
+
+}
+
+        /* TABLET LANDSCAPE VERSION - not work, are the same as desktop */
+@media only screen and (min-width: 768px) and (orientation : landscape) {
+
+}
+
+        /* DESKTOP VERSION */
+@media only screen and (min-width: 980px) {
+
+}
